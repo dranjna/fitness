@@ -1,50 +1,42 @@
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-      <!--  <button class="navbar-toggler" (click)="toggle()" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>-->
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      
-        <a href="">
-          <div class="navbar-brand navbar-brand-centered">
-            <img  src="../assets/images/logo.jpg" alt="" /></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a href="">
+        <div class="navbar-brand navbar-brand-centered">
+          <img src="../assets/images/logo.jpg" alt="" /></div>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="navbarSupportedContent"
+      [className]="isShow ? 'collapse navbar-collapse show' : 'collapse navbar-collapse animate slideIn'">
+      <ul class="nav navbar-nav mt-4">
+        <li class="nav-item"><a href="" class="nav-link">On-Demand</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Plans</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Live Schedule</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Favourite</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    <div class="user_dropdown ml-auto">
+      <span class="user_img">userName</span>
+      <div class="dropdown">
+        <a class="dropdown-toggle" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          userName
         </a>
-      </div>
-  
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse " id="navbarSupportedContent" [className]="isShow ? 'collapse navbar-collapse show' : 'collapse navbar-collapse animate slideIn'">
-        <ul class="nav navbar-nav mt-4">
-          <li class="nav-item"><a href="" class="nav-link">On-Demand</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Plans</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Live Schedule</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Favourite</a></li>
-          
-        </ul>
-      </div><!-- /.navbar-collapse -->
-      <div class="user_dropdown ml-auto">
-        <span class="user_img">userName</span>
-        <div class="dropdown">
-        <a class="dropdown-toggle" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    userName
-    </a>
-        
-         <!-- <a class="dropdown-toggle" (click)="toggle()" type="button" id="dropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">{{userName}} </a>-->
-          <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item"  href="">Profile</a>
-              <a class="dropdown-item" href="" >Go Premium</a>
-              <a class="dropdown-item" href="">Logout</a>
-          </div>
+        <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="">Profile</a>
+          <a class="dropdown-item" href="">Go Premium</a>
+          <a class="dropdown-item" href="">Logout</a>
         </div>
       </div>
-    </div><!-- /.container-fluid -->
-  </nav>
-  
-  
-  
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>

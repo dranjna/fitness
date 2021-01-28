@@ -14,10 +14,10 @@
     }
     .pt{
         font-weight: 600;
-                    font-size: 15px;
-                    line-height: 30px;
-                    margin-left: 20px;
-                    color: #ffffff;
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: 20px;
+        color: #ffffff;
     }
     .li{
         margin: 0px;
@@ -26,128 +26,117 @@
         display: inline-block;
     }
     
-    @media (max-width:576px){
-        .follow-box-button {
-          margin-bottom: 60px;
-        }
-        .follow-box-button{
-            width: 63px;
-            height: 63px;
-            border-radius: 50%;
-            display: flex;
-           
-            align-items: center;
-            justify-content: center;
-        }
-        .footer{
-            background-color: #000000;
-            padding:15px; 
-            border-top: 1px solid rgba(0,0,0,0.2);
-            color: #fff;
-            height: 100%;
-            margin-top: -6px;
-        }
-        .follow_list_box{
-            background: #fff;
-            padding: 0px 20px 0;
-            position: absolute;
-            right: 25px;
-            bottom: 82px;
-            height: 360px;
-            z-index: 99;
-            width: 445px;
-            border-radius: 4px;
-            box-shadow: 0 2px 10px #0000001f;
-            max-height: calc(100vh - 125px);
-           
-            
-        }
+@media (max-width:576px){
+    .follow-box-button {
+        margin-bottom: 60px;
     }
+    .follow-box-button{
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        background-color: #000000;
+        padding:15px; 
+        border-top: 1px solid rgba(0,0,0,0.2);
+        color: #fff;
+        height: 100%;
+        margin-top: -6px;
+    }
+    .follow_list_box{
+        background: #fff;
+        padding: 0px 20px 0;
+        position: absolute;
+        right: 25px;
+        bottom: 82px;
+        height: 360px;
+        z-index: 99;
+        width: 445px;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px #0000001f;
+        max-height: calc(100vh - 125px);
         
         
-        
-        .follow_list_box{
-            background: #fff;
-            padding: 0px 20px 0;
-            position: absolute;
-            right: 25px;
-            bottom: 82px;
-            height: 360px;
-            z-index: 99;
-            width: 445px;
-            border-radius: 4px;
-            box-shadow: 0 2px 10px #0000001f;
-            max-height: calc(100vh - 125px);
-            overflow: hidden;
-        }
+    }
+}
+.follow_list_box{
+    background: #fff;
+    padding: 0px 20px 0;
+    position: absolute;
+    right: 25px;
+    bottom: 82px;
+    height: 360px;
+    z-index: 99;
+    width: 445px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px #0000001f;
+    max-height: calc(100vh - 125px);
+    overflow: hidden;
+}
 
-        .follower-list-box .has-search{
-            position: relative;}
-        .follower-list-box .has-search span{
-            position: absolute;
-            top: 11px;
-            left: 10px;
-            color: #cecece;
-        }
-        .fa {
-            display: inline-block;
-            font-family: FontAwesome;
-            font-style: normal;
-            font-weight: normal;
-            line-height: 1;
-            -webkit-font-smoothing: antialiased;
-        }
-        .follow-box-button{
-            background: #000;
-            width: 63px;
-            height: 63px;
-            border-radius: 50%;
-            margin: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-
-          
-        
-
-        }
-        .inner-follow-box{position: relative;
-        }
-        .follow-box-button img{
-            width: 65px;
-            height: 65px;
-        }
-        .follower-support-box{
-            max-width: 500px;
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            z-index: 99;
-        }
-
-
-        .search-follow-box{position: relative;top: -56px;}
-        .search-follow-box ul{
-            position: absolute;
-            top: 70px;
-            left: 0;
-            background: #fff;
-            width: 100%;
-            right: 0;
-            border: 1px solid #ececec;
-            z-index: 99;
-            box-shadow: 0px 6px 10px #0000001f;
-        }
-        .search-follow-box li
-        {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 15px;
-            border-bottom: 1px solid #efefee;
-        }
-        .search-follow-box li:last-child{border: none;}
+.follower-list-box .has-search{
+    position: relative;}
+.follower-list-box .has-search span{
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    color: #cecece;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.follow-box-button{
+    background: #000;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-follow-box{position: relative;
+}
+.follow-box-button img{
+    width: 65px;
+    height: 65px;
+}
+.follower-support-box{
+    max-width: 500px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.search-follow-box{position: relative;top: -56px;}
+.search-follow-box ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    right: 0;
+    border: 1px solid #ececec;
+    z-index: 99;
+    box-shadow: 0px 6px 10px #0000001f;
+}
+.search-follow-box li
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #efefee;
+}
+.search-follow-box li:last-child{border: none;}
 .search-follow-box li>.account-name{
     display: flex;
     align-items: center;
