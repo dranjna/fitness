@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="16" viewBox="0 0 8 16">
+  <g id="select-bar" transform="translate(-992 -466)">
+    <path id="Triangle" d="M4,0,8,6H0Z" transform="translate(992 466)" fill="#bdbdbd"/>
+    <path id="Triangle-2" data-name="Triangle" d="M4,0,8,6H0Z" transform="translate(1000 482) rotate(180)" fill="#bdbdbd"/>
+  </g>
+</svg>

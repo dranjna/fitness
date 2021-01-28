@@ -1,0 +1,80 @@
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+                <h6>Follow us</h6>
+                <span class="social_icon justified-content-center ml-5 " style="margin-left: 33px;">
+                    <a href=""> <img src="../assets/images/insta.svg" style="width: 40px; margin-left:20px"></a>
+                    <a href=""> <img src="../assets/images/tw.svg" style="width: 40px;margin-left:7px"></a>
+                    <a href=""> <img src="../assets/images/fb.svg" style="width: 40px;margin-left:7px"></a>
+
+                </span>
+            </div>
+            <div class="col-lg-4 col-md-4 text-align-center" style="text-align: center;">
+                <img src="../assets/images/new/white-logo.png" style="width: 150px; align-items: flex-end;">
+                <h6 class="text-align-center header6">
+                    © 2018 - 2020 VEX, Inc</h6>
+                <ul style="padding: 0px;">
+                    <li class="li"><a target="_blank" href="" class="pt">Privacy</a></li>
+
+
+                    <li class="li"><a target="_blank" href="" class="pt">Terms</a>
+
+
+
+
+
+                    </li>
+                    <!-- <li><a target="_blank" href="#">Support</a></li> -->
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+</footer>
+
+
+<div class="follower-support-box" >
+    <div class="inner-follow-box">
+        <a  class=" follow-box-button open" (click)="showHide()">
+            <img class="m-0" src="../../../assets/images/swap.png" alt="">
+        </a>
+        <div *ngIf="showPop" class="follow_list_box">
+            <div  class="has-search">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text"  name="filterName"  class="form-control" placeholder="Search">
+                <div >
+                    <h5 class="follower-list"> Viewing</h5>
+                </div>
+                <div>
+                    <ul class="list-users">
+                        <li>
+                            <img src="../assets/images/view.png" class="list-img">
+                            <p class="list-p">Gold Gym Mohali</p>
+                        </li>
+                    </ul>
+                    <hr>
+
+                    <div >
+                        <h5 class="follower-list"> Following</h5>
+                    </div>
+                    <div>
+                        <ul class="list-users">
+                            <li>
+                                <img src="../assets/images/follow.png" class="list-img">
+                                <p class="list-p">Circuit Factory Virtual</p>
+                                <button class="btn-primary button">Following</button>
+                            </li>
+                        </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
